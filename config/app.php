@@ -189,6 +189,10 @@ return [
         Modules\Core\Providers\AsgardServiceProvider::class,
 
         App\Providers\RouteServiceProvider::class,
+        Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+        Nwidart\Menus\MenusServiceProvider::class,
+        Dimsav\Translatable\TranslatableServiceProvider::class,
     ],
 
     /*
@@ -235,6 +239,10 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Notification' => Illuminate\Support\Facades\Notification::class,
+        'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
+        'Image' => Intervention\Image\Facades\Image::class,
+        'Menu' => Nwidart\Menus\Facades\Menu::class,
+
     ],
 
 ];
