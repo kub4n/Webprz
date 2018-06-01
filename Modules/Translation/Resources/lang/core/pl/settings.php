@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'site-index' => 'Indexowanie strony przez google',
+    'site-name' => 'Nazwa strony',
+    'site-description' => 'Opis strony',
+    'site-name-mini' => 'Skrócona nazwa strony',
+    'template' => 'Szablon strony',
+    'analytics-script' => 'Kod Google Analytics',
+    'locales' => 'Lokalizacje strony',
+    'phone-number' => 'Numer telefonu',
+    'email' => 'Email',
+    'address-city' => 'Miejscowość',
+    'address-street' => 'Ulica',
+    'address-house-number' => 'Numer lokalu',
+    'address-zip' => 'Kod pocztowy',
+    'facebook' => 'Facebook',
+    'twitter' => 'Twitter',
+    'name' => 'Imię i nazwisko',
+    'fax' => 'Fax',
+    'faculty' => 'Wydział',
+    'school' => 'Uczelnia',
+    'instagram' => 'Instagram',
+    'pinterest' => 'Pinterest',
+    'gplus' => 'Google+',
+    'google-maps-api-key' => 'Google Maps API KEY',
+];

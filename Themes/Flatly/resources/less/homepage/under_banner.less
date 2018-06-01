@@ -1,0 +1,43 @@
+.under-banner{
+  padding: 79px 0;
+  font-size:@size-large;
+  color:@color-primary;
+  font-weight:@bold;
+  i{
+    font-size:2em;
+    margin-right:20px;
+  }
+}
+
+.about-web{
+  max-width:1920px;
+  margin:auto;
+  border-top:1px #ebebeb solid;
+  border-bottom:1px #ebebeb solid;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  .image{
+    max-width:50%;
+  }
+  h2{
+
+    &:after{
+      content:'';
+      border-bottom:2px @color-primary solid;
+      max-width:210px;
+      display: block;
+      margin-top: 40px;
+    }
+  }
+  .description{
+    color: @color-gray;
+    max-width:50%;
+    padding-right: 69px;
+    margin-left: auto;
+    p{
+      line-height: 1.4em;
+      margin-bottom: 28px;
+    }
+  }
+}

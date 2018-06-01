@@ -1,0 +1,402 @@
+@media screen and(max-width: 1600px) {
+  .about-web {
+    h2 {
+      margin-bottom: 20px;
+      &:after {
+        margin-top: 20px;
+      }
+    }
+    .description p {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media screen and(max-width: 1300px) {
+  @size-large: 18px;
+  html body {
+    font-size: 13px;
+  }
+
+  .container p {
+    font-size: 13px;
+
+  }
+
+  .navigation {
+    font-size: @size-large;
+  }
+
+  .main-banner {
+    height: auto;
+    padding: 66px 0;
+    .absolute-text {
+      h1 {
+        padding-top: 0px;
+        font-size: 40px;
+        margin: 0;
+      }
+      .sub-title {
+        font-size: 24px;
+        margin-bottom: 40px;
+
+      }
+      .caption p {
+        font-size: @size-large;
+      }
+    }
+  }
+
+  .about-web {
+    padding-left: 15px;
+    .description {
+      max-width: 100%;
+      padding-right: 30px;
+    }
+  }
+
+  body h2 {
+    font-size: 28px;
+  }
+
+  footer {
+    .left {
+      padding-left: 15px;
+    }
+  }
+}
+
+@media screen and(max-width: 1199px) {
+  @size-large: 15px;
+  .navigation {
+    font-size: @size-large;
+  }
+
+  .main-banner {
+    padding: 66px 0;
+    .absolute-text {
+      h1 {
+        font-size: 30px;
+      }
+      .sub-title {
+        font-size: 18px;
+        margin-bottom: 30px;
+
+      }
+      .caption p {
+        font-size: @size-large;
+      }
+    }
+  }
+
+  .under-banner {
+    padding: 39px 0;
+  }
+
+  .about-web {
+    .image {
+      max-width: 100%;
+    }
+    .description {
+      padding-right: 10px;
+    }
+  }
+
+  .info-blocks {
+    .media-1199 {
+      margin-bottom: 20px;
+    }
+  }
+
+  footer {
+    .left {
+      padding-right: 0;
+    }
+  }
+}
+
+@media screen and(max-width: 991px) {
+  .top {
+    padding: 20px 0;
+  }
+
+  .navigation {
+    min-height: 2px;
+    .container {
+      max-width: 100%;
+    }
+    .nav {
+      padding: 12px 0;
+      text-align: center;
+      li:not(:last-child) {
+        border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+
+      }
+      a {
+        line-height: 40px;
+        width: 100%;
+        &:after, &:before {
+          content: none;
+        }
+
+      }
+      li {
+
+        ul {
+          display:block;
+          color: #fff;
+          background-color: #1f8db2;
+          min-height: auto;
+          list-style-type: none;
+          padding: 0;
+          max-height:0px;
+          overflow:hidden;
+          transition: max-height .5s, padding .5s;
+          -webkit-transition:max-height .5s, padding .5s;
+          li {
+            border-bottom: none;
+            width: 100%;
+          }
+          a {
+            color: #fff;
+
+          }
+        }
+        &:hover{
+          ul{
+            position:relative;
+            max-height:1000px;
+            padding: 15px 50px;
+          }
+        }
+      }
+    }
+  }
+
+  .burger {
+    height: 28px;
+    width: 100%;
+    max-width: 35px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: none;
+    border-radius: none;
+    cursor: pointer;
+    -webkit-transition: background 0.15s linear;
+    -o-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+    outline: none;
+  }
+
+  .burger span {
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 13.5px;
+    left: 10%;
+    right: 10%;
+    background-color: @color-primary;
+    -webkit-transition: background 0.15s linear 0.15s;
+    -o-transition: background 0.15s linear 0.15s;
+    transition: background 0.15s linear 0.15s;
+  }
+
+  .burger span::before,
+  .burger span::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: @color-primary;
+  }
+
+  .burger span::before {
+    top: -8px;
+    -webkit-transition: top 0.15s linear 0.15s, -webkit-transform 0.15s linear;
+    transition: top 0.15s linear 0.15s, -webkit-transform 0.15s linear;
+    -o-transition: top 0.15s linear 0.15s, transform 0.15s linear;
+    transition: top 0.15s linear 0.15s, transform 0.15s linear;
+    transition: top 0.15s linear 0.15s, transform 0.15s linear, -webkit-transform 0.15s linear;
+  }
+
+  .burger span::after {
+    bottom: -8px;
+    -webkit-transition: bottom 0.15s linear 0.15s, -webkit-transform 0.15s linear;
+    transition: bottom 0.15s linear 0.15s, -webkit-transform 0.15s linear;
+    -o-transition: bottom 0.15s linear 0.15s, transform 0.15s linear;
+    transition: bottom 0.15s linear 0.15s, transform 0.15s linear;
+    transition: bottom 0.15s linear 0.15s, transform 0.15s linear, -webkit-transform 0.15s linear;
+  }
+
+  .burger-open span {
+    -webkit-transition: background 0.15s linear;
+    -o-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+    background: none;
+  }
+
+  .burger-open span::before {
+    top: -2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: top 0.15s linear, -webkit-transform 0.15s linear 0.15s;
+    transition: top 0.15s linear, -webkit-transform 0.15s linear 0.15s;
+    -o-transition: top 0.15s linear, transform 0.15s linear 0.15s;
+    transition: top 0.15s linear, transform 0.15s linear 0.15s;
+    transition: top 0.15s linear, transform 0.15s linear 0.15s, -webkit-transform 0.15s linear 0.15s;
+  }
+
+  .burger-open span::after {
+    bottom: 2px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: bottom 0.15s linear, -webkit-transform 0.15s linear 0.15s;
+    transition: bottom 0.15s linear, -webkit-transform 0.15s linear 0.15s;
+    -o-transition: bottom 0.15s linear, transform 0.15s linear 0.15s;
+    transition: bottom 0.15s linear, transform 0.15s linear 0.15s;
+    transition: bottom 0.15s linear, transform 0.15s linear 0.15s, -webkit-transform 0.15s linear 0.15s;
+  }
+
+  .under-banner {
+    .media-992-margin {
+      margin-bottom: 20px;
+    }
+  }
+
+  .about-web {
+    .description {
+      margin: 30px auto;
+      max-width: 600px;
+    }
+  }
+
+  .contact {
+    padding: 40px 0;
+  }
+
+  footer {
+    .left {
+      max-width: 100%;
+      .content {
+        max-width: 720px;
+        padding: 0 15px;
+      }
+    }
+    .right {
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and(max-width: 767px) {
+  @font-large: 15px;
+  html body {
+    font-size: 12px;
+  }
+
+  body h2 {
+    font-size: 21px;
+  }
+
+  .main-banner {
+    padding: 45px 0;
+    .absolute-text {
+      h1 {
+        font-size: 20px;
+        letter-spacing: 5px;
+      }
+      .sub-title {
+        letter-spacing: 1px;
+        font-size: @font-large;
+      }
+      .caption {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .under-banner {
+    font-size: @font-large;
+  }
+
+  .about-web {
+    h2:after {
+      max-width: 100px;
+    }
+  }
+
+  .info-blocks .block {
+    min-height: 349px;
+  }
+
+  .gallery {
+    padding: 39px 0;
+  }
+
+  .second-gallery {
+    display: table;
+    width: 100%;
+    img {
+      max-width: 50%;
+      float: left;
+    }
+  }
+}
+
+@media screen and(max-width: 575px) {
+  .media-575-margin {
+    margin-bottom: 20px;
+  }
+  .top{
+    img{
+      max-width: 100px;
+    }
+    .button-primary{
+      width: 116px;
+      i{
+        display:none;
+      }
+    }
+  }
+  .main-banner .absolute-text {
+    h1{
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+    .sub-title{
+      font-size: 15px;
+    }
+    .caption p {
+
+    }
+  }
+  .under-banner{
+    font-size: 13px;
+    line-height:1.3em;
+    i{
+      margin-right:10px;
+    }
+  }
+  footer{
+    .left{
+      padding-top:40px;
+      padding-bottom:40px;
+    }
+  }
+}
