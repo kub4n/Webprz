@@ -305,7 +305,6 @@ JSON;
     "require": {
         "php": ">=7.0.0",
         "composer/installers": "~1.0",
-        "idavoll/core-module": "~3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0",
