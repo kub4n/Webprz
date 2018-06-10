@@ -38,9 +38,11 @@ class MediaController extends Controller
     {
         $files = [];
         foreach (Storage::disk('instrukcje')->files($request->input('location')) as $file) {
+            $filo = storage_path("../public/assets/media/instrukcje/".$file);
             $files[] = [
                 'path' => $file,
-                'name' => array_reverse(explode('/', $file))[0]
+                'name' => array_reverse(explode('/', $file))[0],
+                'extension' => pathinfo($filo)['extension']
             ];
         }
 

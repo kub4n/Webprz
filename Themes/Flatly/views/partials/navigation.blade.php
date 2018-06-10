@@ -15,9 +15,18 @@
             <div class="contact-phone d-none d-lg-flex align-items-center">
                 <i class="icon-phone-icon"></i>@setting('core::phone-number')
             </div>
-            <a class="button-primary hvr-icon-wobble-horizontal" data-toggle="modal" data-target="#loginModal">
-                ZALOGUJ SIĘ <i class="icon-play-button hvr-icon"></i>
-            </a>
+            @if (Auth::check())
+
+                <a class="button-primary hvr-icon-wobble-horizontal ejno" href="{{ route('logout') }}">
+                    <span>Witaj: {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}</span>
+                    WYLOGUJ SIĘ <i class="icon-play-button hvr-icon"></i>
+                </a>
+            @else
+                <a class="button-primary hvr-icon-wobble-horizontal" data-toggle="modal" data-target="#loginModal">
+                    ZALOGUJ SIĘ <i class="icon-play-button hvr-icon"></i>
+                </a>
+            @endif
+
             <button class="d-lg-none burger open-menu navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,26 +52,30 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Użytkownik</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Wpisz nazwę użytkownika">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Hasło</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Hasło">
-                    </div>
-                    <div class="pull-right">
-                        <a href="#"><b>Zapomniałem hasła</b></a><br>
-                        <a href="#"><b>Zarejestruj się</b></a>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="button-primary hvr-icon-wobble-horizontal" type="submit">Zaloguj się<i class="icon-play-button hvr-icon"></i>
+            {!! Form::open(['route' => 'login.post']) !!}
+                <div class="modal-body">
+                        <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}">
+                            <input type="email" class="form-control" autofocus
+                                   name="email" placeholder="{{ trans('user::auth.email') }}" value="{{ old('email')}}">
+                            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                            {!! $errors->first('email', '<span class="help-block">:message</span>') !!}
+                        </div>
+                        <div class="form-group has-feedback {{ $errors->has('password') ? ' has-error' : '' }}">
+                            <input type="password" class="form-control"
+                                   name="password" placeholder="{{ trans('user::auth.password') }}" value="{{ old('password')}}">
+                            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                            {!! $errors->first('password', '<span class="help-block">:message</span>') !!}
+                        </div>
+                        <a href="{{ route('reset')}}">Zapomniałem hasła</a><br>
+                        @if (config('asgard.user.config.allow_user_registration'))
+                            <a href="{{ route('register')}}" class="text-center">Zarejestruj się</a>
+                        @endif
+                </div>
+                <div class="modal-footer">
+                    <button class="button-primary hvr-icon-wobble-horizontal" type="submit">Zaloguj się<i class="icon-play-button hvr-icon"></i>
+                </div>
+            </form>
 
-            </div>
         </div>
     </div>
 </div>
@@ -72,5 +85,9 @@
             $('.burger').toggleClass('burger-open');
         });
 
+        <?php if ($errors->has('email') || $errors->has('password')) { ?>
+                      console.log('errors');
+
+        <?php } ?>
     </script>
 @endpush

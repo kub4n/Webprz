@@ -9968,14 +9968,33 @@ blockquote {
   margin-bottom: 15px;
   font-size: 1.3rem;
 }
+.files svg {
+  position: relative;
+  top: 5px;
+}
 .files tr {
   cursor: pointer;
+}
+.files tr a {
+  height: 30px;
+  display: block;
+  line-height: 30px;
 }
 .files .dir {
   font-weight: bold;
 }
 .files .dir:last-child td {
   border-bottom: 2px solid #dee2e6;
+}
+.ejno {
+  position: relative;
+}
+.ejno span {
+  text-transform: capitalize;
+  position: absolute;
+  margin: -36px -40px;
+  font-weight: normal;
+  color: #505050 !important;
 }
 /* Book library */
 .book-list {

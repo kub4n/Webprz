@@ -135,7 +135,17 @@ blockquote {
 
 
 .files {
-  tr{ cursor: pointer}
+  svg {
+    position: relative;
+    top: 5px;
+  }
+  tr{
+    cursor: pointer;
+  a{
+    height: 30px;
+    display: block;
+    line-height: 30px;
+  }}
   .dir {
     font-weight: bold;
     &:last-child {
@@ -146,7 +156,16 @@ blockquote {
   }
 }
 
-
+.ejno {
+  position: relative;
+  span {
+    text-transform: capitalize;
+    position: absolute;
+    margin: -36px -40px;
+    font-weight: normal;
+    color: #505050 !important;
+  }
+}
 /* Book library */
 
 .book-list {
