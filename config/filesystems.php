@@ -57,6 +57,12 @@ return [
             'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
         ],
+        'instrukcje' => [
+            'driver' => 'local',
+            'root' => storage_path('../public/assets/media/instrukcje'),
+            'url' => env('APP_URL') . '/public/assets/media/instrukcje',
+            'visibility' => 'public',
+        ],
 
         'content' => [
             'driver' => 'local',
