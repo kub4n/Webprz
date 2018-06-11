@@ -47,7 +47,7 @@
         methods: {
             loadDirectory(directory) {
                 this.location = directory;
-                axios.get('/instrukcje_files', {
+                axios.get('/materialy_files', {
                     params: {
                         location: directory
                     }
@@ -57,7 +57,7 @@
                 });
             },
             getDownloadLink(file) {
-                return '/instrukcje_download?' + jQuery.param( {file: file});
+                return '/materialy_download?' + jQuery.param( {file: file});
             }
         },
         mounted() {

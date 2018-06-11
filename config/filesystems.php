@@ -57,10 +57,10 @@ return [
             'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
         ],
-        'instrukcje' => [
+        'materialy' => [
             'driver' => 'local',
-            'root' => storage_path('../public/assets/media/instrukcje'),
-            'url' => env('APP_URL') . '/public/assets/media/instrukcje',
+            'root' => storage_path('../public/assets/media/materialy'),
+            'url' => env('APP_URL') . '/public/assets/media/materialy',
             'visibility' => 'public',
         ],
 

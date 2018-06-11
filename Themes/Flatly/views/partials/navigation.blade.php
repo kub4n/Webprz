@@ -16,7 +16,6 @@
                 <i class="icon-phone-icon"></i>@setting('core::phone-number')
             </div>
             @if (Auth::check())
-
                 <a class="button-primary hvr-icon-wobble-horizontal ejno" href="{{ route('logout') }}">
                     <span>Witaj: {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}</span>
                     WYLOGUJ SIĘ <i class="icon-play-button hvr-icon"></i>
@@ -84,10 +83,5 @@
         $('.open-menu').on('click', function () {
             $('.burger').toggleClass('burger-open');
         });
-
-        <?php if ($errors->has('email') || $errors->has('password')) { ?>
-                      console.log('errors');
-
-        <?php } ?>
     </script>
 @endpush

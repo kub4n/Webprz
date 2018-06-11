@@ -18210,7 +18210,7 @@ exports.default = {
             var _this = this;
 
             this.location = directory;
-            _axios2.default.get('/instrukcje_files', {
+            _axios2.default.get('/materialy_files', {
                 params: {
                     location: directory
                 }
@@ -18220,7 +18220,7 @@ exports.default = {
             });
         },
         getDownloadLink: function getDownloadLink(file) {
-            return '/instrukcje_download?' + jQuery.param({ file: file });
+            return '/materialy_download?' + jQuery.param({ file: file });
         }
     },
     mounted: function mounted() {
