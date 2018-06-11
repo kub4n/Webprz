@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="60d712bc-9155-40f4-8590-236653533ed4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+    <list default="true" id="60d712bc-9155-40f4-8590-236653533ed4" name="Default" comment="email">
+      <change afterPath="$PROJECT_DIR$/Modules/Media/Resources/views/emials/send.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Media/Http/Controllers/Frontend/MediaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Media/Http/Controllers/Frontend/MediaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Media/Http/frontendRoutes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Media/Http/frontendRoutes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/User/Resources/views/public/reset/begin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/User/Resources/views/public/reset/begin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/Flatly/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Themes/Flatly/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/Flatly/resources/js/components/Files.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Themes/Flatly/resources/js/components/Files.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/Flatly/views/homepage/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Themes/Flatly/views/homepage/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/Flatly/views/partials/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Themes/Flatly/views/partials/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/flatly/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/flatly/js/main.js" afterDir="false" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,12 +32,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding />
+=======
+      <file leaf-file-name="MediaController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Frontend/MediaController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#59#93#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filesystems.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
             </state>
           </provider>
         </entry>
@@ -50,36 +104,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PageController</find>
-      <find>Pages</find>
-      <find>body</find>
-      <find>title</find>
-      <find>MoonBlog</find>
-      <find>Blog</find>
-      <find>Post</find>
-      <find>blog</find>
-      <find>allWithBuilder()</find>
-      <find>Slider</find>
-      <find>eloquentcore</find>
-      <find>status</find>
-      <find>translate</find>
-      <find>generate</find>
-      <find>index</find>
-      <find>sliders</find>
-      <find>slider</find>
-      <find>sliderId</find>
-      <find>sliderName</find>
-      <find>imageable</find>
-      <find>Page</find>
-      <find>media</find>
-      <find>slider.</find>
-      <find>slide.parentId</find>
-      <find>bootstrap</find>
-      <find>post</find>
-      <find>url('</find>
-      <find>hideDefaultLocaleInURL</find>
-      <find>21</find>
-      <find>991</find>
+      <find>media/media</find>
+      <find>pdf</find>
+      <find>I already have a membership</find>
+      <find>Files</find>
+      <find>&lt;files</find>
+      <find>register.post</find>
+      <find>dir</find>
+      <find>Zapomnia</find>
+      <find>login.post</find>
+      <find>AuthController</find>
+      <find>open-menu</find>
+      <find>.ejno</find>
+      <find>redirect_route_after_login</find>
+      <find>&lt;files&gt;</find>
+      <find>files(</find>
+      <find>first_name</find>
+      <find>gallery1.</find>
+      <find>Theme::url(</find>
+      <find>loginModal</find>
+      <find>v-bind:src</find>
+      <find>to reset password complete this form</find>
+      <find>I remembered my password</find>
+      <find>THE EMAIL FIELD IS REQUIRED.</find>
+      <find>FORMULARZ KONTAKTOWY</find>
+      <find>back</find>
+      <find>response()-&gt;</find>
+      <find>FORMULARZ</find>
+      <find>emails.</find>
+      <find>send</find>
+      <find>re</find>
     </findStrings>
     <replaceStrings>
       <replace>post</replace>
@@ -109,65 +163,74 @@
       <dir>C:\wamp64\www\webprz\Themes\Flatly\node_modules</dir>
       <dir>C:\wamp64\www\webprz\Modules</dir>
       <dir>C:\wamp64\www\webprz</dir>
+      <dir>$PROJECT_DIR$/Themes/Flatly/resources</dir>
+      <dir>$PROJECT_DIR$/vendor</dir>
+      <dir>$PROJECT_DIR$/Modules/User/Http</dir>
+      <dir>$PROJECT_DIR$/Modules/Media</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Modules/Translation/Resources/lang/page/pl/pages.php" />
-        <option value="$PROJECT_DIR$/Modules/Page/Assets/js/components/PageForm.vue" />
-        <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/asgard.less" />
-        <option value="$PROJECT_DIR$/Themes/Adminlte/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Adminlte/resources/assets/less/main.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/fonts.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/settings/mixins.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/settings/main.less" />
-        <option value="$PROJECT_DIR$/config/laravellocalization.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/settings/animation.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/main-banner.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/main-banner1.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/main_banner.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/settings/variables.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/under_banner.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/info_blocks.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/homepage/main_banner.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/gallery.less" />
+        <option value="$PROJECT_DIR$/public/modules/user/js/UserRoutes.js" />
+        <option value="$PROJECT_DIR$/resources/views/asgard/dashboard/admin/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/Themes/Flatly/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/js/main.js" />
-        <option value="$PROJECT_DIR$/Modules/Core/Config/settings.php" />
-        <option value="$PROJECT_DIR$/Modules/Translation/Resources/lang/core/pl/settings.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/footer.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/main_banner.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/under_banner.less" />
-        <option value="$PROJECT_DIR$/Modules/Menu/Config/config.php" />
-        <option value="$PROJECT_DIR$/config/asgard/menu/config.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/gallery.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/homepage/under_banner.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/homepage/info_blocks.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Menu/Presenters/MenuPresenter.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/homepage/contact.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/partials/footer.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/homepage/gallery.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/media.less" />
         <option value="$PROJECT_DIR$/Themes/Flatly/views/default.blade.php" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/default_page.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/navigation.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/contact.less" />
-        <option value="$PROJECT_DIR$/Themes/Flatly/views/partials/navigation.blade.php" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/views/browser/under_banner.blade.php" />
+        <option value="$PROJECT_DIR$/public/modules/media/js/MediaRoutes.js" />
+        <option value="$PROJECT_DIR$/Modules/Media/Assets/js/components/MediaManager.vue" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/admin/partials/edit-fields.blade.php" />
+        <option value="$PROJECT_DIR$/public/modules/media/js/components/MediaManager.vue" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/admin/grid/general.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/admin/edit.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/admin/grid/partials/content.blade.php" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/views/browser/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Http/Controllers/Admin/MediaController.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Assets/js/components/SingleMedia.vue" />
+        <option value="$PROJECT_DIR$/public/modules/media/js/components/Pliczki.vue" />
+        <option value="$PROJECT_DIR$/Modules/Media/Assets/js/components/Pliczki.vue" />
+        <option value="$PROJECT_DIR$/Modules/Slider/Assets/js/SliderRoutes.js" />
+        <option value="$PROJECT_DIR$/Modules/Media/Assets/js/MediaRoutes.js" />
+        <option value="$PROJECT_DIR$/Modules/Media/Http/Controllers/Api/AllNestableFolderController.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Http/Controllers/Api/MediaController.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Http/backendRoutes.php" />
+        <option value="$PROJECT_DIR$/Themes/Adminlte/views/partials/asgard-globals.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Database/Seeders/SentinelGroupSeedTableSeeder.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Assets/js/components/Files.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/fonts/fontello/css/fontello.css" />
+        <option value="$PROJECT_DIR$/public/modules/media/js/components/MediaList.vue" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/package.json" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/resources/js/main.js" />
+        <option value="$PROJECT_DIR$/Modules/Media/Config/config.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Resources/views/admin/users/create.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Assets/js/components/UserForm.vue" />
+        <option value="$PROJECT_DIR$/Modules/User/Resources/views/public/register.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Resources/views/public/login.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/front/index.blade.php" />
         <option value="$PROJECT_DIR$/Themes/Flatly/resources/less/main.less" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/Modules/User/composer.json" />
-        <option value="$PROJECT_DIR$/Modules/Setting/composer.json" />
-        <option value="$PROJECT_DIR$/Modules/Media/composer.json" />
-        <option value="$PROJECT_DIR$/Modules/Menu/composer.json" />
-        <option value="$PROJECT_DIR$/Modules/Workshop/composer.json" />
-        <option value="$PROJECT_DIR$/Modules/Translation/composer.json" />
-        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/Modules/User/Resources/views/emails/reminder.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/User/Resources/views/public/reset/begin.blade.php" />
+        <option value="$PROJECT_DIR$/config/filesystems.php" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/resources/js/components/Files.vue" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/views/partials/navigation.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Http/frontendRoutes.php" />
+        <option value="$PROJECT_DIR$/Themes/Flatly/views/homepage/contact.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/emials/send.blad.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/emials/send.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Http/Controllers/Frontend/MediaController.php" />
       </list>
     </option>
   </component>
@@ -186,11 +249,50 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Themes/Adminlte/node_modules" />
     <handled-path value="$PROJECT_DIR$/Themes/Flatly/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Modules/Core/Assets/vendor/microplugin/package.json" />
+      <path value="$PROJECT_DIR$/Modules/Core/Assets/vendor/sifter/package.json" />
+      <path value="$PROJECT_DIR$/Modules/Core/package.json" />
+      <path value="$PROJECT_DIR$/Modules/Dashboard/Assets/vendor/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/admin-lte/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/animate.css/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/clipboard/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/datatables.net-bs/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/datatables.net/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/font-awesome/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/gridstack/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/iCheck/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/jquery/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/lodash/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/assets/vendor/simplemde/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Adminlte/package.json" />
+      <path value="$PROJECT_DIR$/Themes/Flatly/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/public/modules/core/vendor/microplugin/package.json" />
+      <path value="$PROJECT_DIR$/public/modules/core/vendor/sifter/package.json" />
+      <path value="$PROJECT_DIR$/public/modules/dashboard/vendor/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/admin-lte/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/animate.css/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/clipboard/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/datatables.net-bs/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/datatables.net/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/font-awesome/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/gridstack/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/iCheck/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/jquery/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/lodash/package.json" />
+      <path value="$PROJECT_DIR$/public/themes/adminlte/vendor/simplemde/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/typicms/nestablecollection" />
@@ -298,13 +400,13 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -330,17 +432,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -348,8 +440,40 @@
         <subPane>
           <expand>
             <path>
-              <item name="webprz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webprz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Webprz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webprz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webprz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webprz" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webprz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webprz" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webprz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webprz" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webprz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webprz" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webprz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webprz" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webprz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webprz" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webprz" type="b2602c69:ProjectViewProjectNode" />
@@ -382,33 +506,34 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.path.for.package.jscs" value="project" />
-    <property name="node.js.detected.package.jscs" value="true" />
-    <property name="node.js.selected.package.jscs" value="" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="C:\wamp64\www\moonblog\node_modules\eslint" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\wamp64\www\moonblog\node_modules\eslint" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Themes/Flatly/assets/img" />
+      <recent name="$PROJECT_DIR$/Themes/Flatly/resources/js/components" />
+      <recent name="$PROJECT_DIR$/public/modules/media/js/components" />
+      <recent name="$PROJECT_DIR$/resources/assets/js/components" />
+      <recent name="$PROJECT_DIR$/Modules/Media/Assets/js/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Modules/Media/Resources/views" />
+      <recent name="$PROJECT_DIR$/Themes/Flatly/resources/js" />
       <recent name="C:\wamp64\www\webprz\Themes\Flatly\resources\less\homepage" />
       <recent name="C:\wamp64\www\webprz\Themes\Flatly\resources\less\settings" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\webprz\Themes\Flatly\resources\less" />
-      <recent name="C:\wamp64\www\moonblog\Modules\Slider\Transformers" />
-      <recent name="C:\wamp64\www\moonblog\Modules\Slider\Assets\js\components" />
-      <recent name="C:\wamp64\www\moonblog\Modules\Slider" />
-      <recent name="C:\wamp64\www\moonblog\Modules\Slider\Http\Controllers\Api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,9 +547,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -474,12 +596,30 @@
       <workItem from="1527849577739" duration="1319000" />
       <workItem from="1527851322778" duration="227000" />
       <workItem from="1527851993460" duration="163000" />
+<<<<<<< HEAD
       <workItem from="1527853129520" duration="577000" />
       <workItem from="1528652958758" duration="279000" />
+=======
+      <workItem from="1527853129520" duration="489000" />
+      <workItem from="1528577736250" duration="18156000" />
+      <workItem from="1528649392046" duration="15444000" />
+      <workItem from="1528666419090" duration="868000" />
+      <workItem from="1528734017143" duration="17000" />
+      <workItem from="1528741502649" duration="2646000" />
     </task>
+    <task id="LOCAL-00001" summary="pliczki">
+      <created>1528661613501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528661613502</updated>
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="100945000" />
   </component>
   <component name="ToolWindowManager">
@@ -504,6 +644,36 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.320644E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="137709000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="971" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.21855922" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="7.320644E-4" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="1" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,270 +689,274 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Modules/MoonBlog" />
     </ignored-roots>
+    <MESSAGE value="pliczki" />
+    <MESSAGE value="ten tego" />
+    <MESSAGE value="email" />
+    <option name="LAST_COMMIT_MESSAGE" value="email" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/info_blocks.less">
+=======
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/under_banner.less">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Assets/js/components/MediaList.vue">
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="239">
+          <caret line="303" column="44" lean-forward="true" selection-start-line="303" selection-start-column="44" selection-end-line="303" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/gallery.less">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Assets/js/MediaRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="195">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/under_banner.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Resources/views/admin/account/api-keys/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/info_blocks.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Assets/js/components/UserForm.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="58" />
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Menu/Presenters/MenuPresenter.php">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Http/Controllers/Api/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        <state relative-caret-position="-196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Repositories/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/partials/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="1151">
+          <caret line="7336" column="1" selection-start-line="7336" selection-start-column="1" selection-end-line="7336" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/gallery.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="82">
+          <caret line="580" column="35" lean-forward="true" selection-start-line="580" selection-start-column="35" selection-end-line="580" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Entities/UserInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Entities/Sentinel/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/main_banner.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/gallery.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="405">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/default.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/views/front/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/media.less">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Resources/views/public/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6426">
-          <caret line="378" column="22" lean-forward="false" selection-start-line="378" selection-start-column="22" selection-end-line="378" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/default_page.less">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Http/Controllers/Admin/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="586">
+          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/navigation.less">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Http/Controllers/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        <state relative-caret-position="330">
+          <caret line="44" column="95" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Blog/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/assets/img/pdf.png" />
+    <entry file="file://$PROJECT_DIR$/Modules/User/Resources/views/admin/users/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Block/Config/config.php">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Resources/views/admin/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/User/Resources/views/public/reset/begin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/homepage/contact.less">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Resources/views/public/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="15" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Block/module.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/backendRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Blog/module.json">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/js/components/Files.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/asgard/user/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Themes/Flatly/resources/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="134">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/contact.blade.php">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/layouts/account.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/partials/navigation.blade.php">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/info_blocks.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="62" column="99" lean-forward="false" selection-start-line="62" selection-start-column="99" selection-end-line="62" selection-end-column="99" />
+        <state relative-caret-position="480">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Blog/composer.json">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Block/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/partials/notifications.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Slider/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcp">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/partials/admin-bar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/layouts/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artisan">
+    <entry file="file://$PROJECT_DIR$/Modules/Core/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.php_cs.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="182" column="11" lean-forward="true" selection-start-line="182" selection-start-column="11" selection-end-line="182" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Core/module.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Core/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="32" selection-end-column="29" />
+=======
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Themes/Flatly/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Dashboard/Http/backendRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
@@ -794,82 +968,149 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Block/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Dashboard/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Admin/MediaGridController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Admin/MediaController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="434">
+          <caret line="81" column="59" lean-forward="true" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/User/composer.json">
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/homepage/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="105">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/Flatly/views/partials/navigation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
+        <state relative-caret-position="314">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Setting/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/frontendRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+=======
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Resources/views/emails/reminder.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+=======
+        <state relative-caret-position="1050">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Page/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/User/Emails/WelcomeEmail.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="153">
           <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+=======
+        <state relative-caret-position="495">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Menu/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/views/emials/send.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="289">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Workshop/composer.json">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+=======
+        <state relative-caret-position="435">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Tag/composer.json">
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="4" />
+=======
+        <state relative-caret-position="408">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Translation/composer.json">
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+=======
+        <state relative-caret-position="246">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Frontend/MediaController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="527">
           <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding />
+=======
+        <state relative-caret-position="354">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#59#93#0#PHP" expanded="true" />
+          </folding>
+>>>>>>> 51caad8046bac7c3bb6db326e4b999db447fc72b
         </state>
       </provider>
     </entry>
