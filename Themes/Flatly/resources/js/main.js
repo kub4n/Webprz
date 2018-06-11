@@ -3,11 +3,14 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import ScrollReveal from 'scrollreveal';
 import * as VueGoogleMaps from 'vue2-google-maps';
+import Files from './components/Files.vue';
 
 Vue.use(ElementUI);
 window.sr = ScrollReveal();
 Vue.component('google-map', VueGoogleMaps.Map);
 Vue.component('google-marker', VueGoogleMaps.Marker);
+Vue.component('files', Files);
+
 Vue.use(VueGoogleMaps, {
     load: {
         key: 'AIzaSyAlu17PuCOggAb8q65PiJ2RhOkIwEzUxto',
@@ -18,6 +21,7 @@ Vue.use(VueGoogleMaps, {
 });
 
 const app = new Vue({
+    components:{Files},
     data() {
         return {
             place: '',
