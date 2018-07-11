@@ -43,6 +43,7 @@ class SliderServiceProvider extends ServiceProvider
         $this->app['events']->listen(LoadingBackendTranslations::class, function (LoadingBackendTranslations $event) {
             $event->load('sliders', array_dot(trans('slider::sliders')));
             $event->load('slides', array_dot(trans('slider::slides')));
+            $event->load('messages', array_dot(trans('slider::messages')));
         });
     }
 

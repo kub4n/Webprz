@@ -33,7 +33,7 @@ return [
         'title' => 'Tytuł',
         'system name' => 'Nazwa systemowa',
         'name' => 'Nazwa',
-        'status' => 'Status',
+        'status' => 'Aktywny',
         'caption' => 'Nagłówek',
         'active' => 'Aktywny',
         'uri' => 'URI',

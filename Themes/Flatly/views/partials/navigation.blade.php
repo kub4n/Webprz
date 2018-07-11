@@ -4,20 +4,20 @@
             <a href="{{route('homepage')}}">
                 <img src="{{Theme::url('img/logo.png')}}" class="img-fluid" alt="@setting('core::site-name')">
             </a>
-            <div class="contact-address d-lg-flex align-items-center d-none">
-                <i class="icon-maps-and-flags"></i>
-                <div>
-                    @setting('core::address-street')
-                    @setting('core::address-house-number') <br>
-                    @setting('core::address-zip') @setting('core::address-city')
-                </div>
-            </div>
-            <div class="contact-phone d-none d-lg-flex align-items-center">
-                <i class="icon-phone-icon"></i>@setting('core::phone-number')
-            </div>
+            {{--<div class="contact-address d-lg-flex align-items-center d-none">--}}
+                {{--<i class="icon-maps-and-flags"></i>--}}
+                {{--<div>--}}
+                    {{--@setting('core::address-street')--}}
+                    {{--@setting('core::address-house-number') <br>--}}
+                    {{--@setting('core::address-zip') @setting('core::address-city')--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="contact-phone d-none d-lg-flex align-items-center">--}}
+                {{--<i class="icon-phone-icon"></i>@setting('core::phone-number')--}}
+            {{--</div>--}}
             @if (Auth::check())
                 <a class="button-primary hvr-icon-wobble-horizontal ejno" href="{{ route('logout') }}">
-                    <span>Witaj: {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}</span>
+                    {{--<span>Witaj: {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}</span>--}}
                     WYLOGUJ SIĘ <i class="icon-play-button hvr-icon"></i>
                 </a>
             @else

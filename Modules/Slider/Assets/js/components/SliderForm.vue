@@ -28,7 +28,7 @@
                                     <span slot="label" :class="{'error' : form.errors.has(locale)}">{{ localeArray.name
                                           }}</span>
                                     <div class="el-row" :gutter="30">
-                                        <el-col  :md="16">
+                                        <el-col  :md="16" v-if="$route.params.sliderId !== undefined">
                                             <slide-table-server-side :parent-id="$route.params.sliderId" ref="slidesTable"></slide-table-server-side>
                                         </el-col>
                                         <el-col  :md="8" class="border-left">
@@ -51,11 +51,11 @@
                                             </el-form-item>
 
 
-                                            <el-form-item :label="trans('sliders.form.status')"
-                                                          :class="{'el-form-item is-error': form.errors.has('.status') }">
-                                                <el-checkbox v-model="slider.status">{{ trans('sliders.form.status') }}</el-checkbox>
-                                                <div class="el-form-item__error" v-if="form.errors.has('.status')"
-                                                     v-text="form.errors.first('.status')"></div>
+                                            <el-form-item :label="trans('sliders.form.active')"
+                                                          :class="{'el-form-item is-error': form.errors.has('.active') }">
+                                                <el-checkbox v-model="slider.active">{{ trans('sliders.form.active') }}</el-checkbox>
+                                                <div class="el-form-item__error" v-if="form.errors.has('.active')"
+                                                     v-text="form.errors.first('.active')"></div>
                                             </el-form-item>
 
                                             <br>
@@ -111,7 +111,9 @@
 
                                 }])
                         .fromPairs()
-                        .merge({medias_single: []})
+                        .merge({medias_single: [],
+                                system_name: null,
+                                active: false})
                         .value(),
 
                 form: new Form(),
@@ -120,6 +122,7 @@
                 activeTab: window.AsgardCMS.currentLocale || 'en',
             };
         },
+
         methods: {
             onSubmit() {
                 this.form = new Form(_.merge(this.slider));
@@ -143,6 +146,7 @@
                             });
                         });
             },
+
             onCancel() {
                 this.$router.push({name: 'admin.slider.sliders.index'});
             },
@@ -152,12 +156,15 @@
                         .then((response) => {
                             this.loading = false;
                             this.slider = response.data.data;
+                            if(this.slider.active){
+                                this.slider.active=true;
+                            }
                             console.log('this.slider', this.slider);
                         });
             },
             generateSlug(event) {
                 this.slider.system_name = this.slugify(this.slider.name);
-
+                console.log(this.slider.system_name);
             },
             getRoute() {
                 if (this.$route.params.sliderId !== undefined) {

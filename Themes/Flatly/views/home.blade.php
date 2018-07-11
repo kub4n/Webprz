@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-@include('homepage.main_banner')
+    {{ Widget::run(\Modules\Slider\Widgets\MainSlider::class, ['slider_name' => 'slider-glowny']) }}
 @include('homepage.under_banner')
 @include('homepage.info_blocks')
 @include('homepage.gallery')

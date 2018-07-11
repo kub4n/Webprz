@@ -33,7 +33,7 @@ $router->group(['prefix' => '/slide'], function (Router $router) {
     $router->post('slides/{slide}/edit', [
         'as' => 'api.slider.slide.update',
         'uses' => 'SlideController@update',
-        'middleware' => 'token-can:blog.posts.edit',
+        //'middleware' => 'token-can:blog.posts.edit',
     ]);
     $router->post('slides', [
         'as' => 'api.slider.slide.store',

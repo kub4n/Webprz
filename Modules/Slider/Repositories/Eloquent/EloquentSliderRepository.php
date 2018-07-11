@@ -51,7 +51,7 @@ class EloquentSliderRepository extends EloquentBaseRepository implements SliderR
      */
     public function findBySystemName($systemName)
     {
-        return $this->model->where('system_name', '=', $systemName)->first();
+        return $this->model->where('system_name', '=', $systemName)->active();
     }
     public function serverPaginationFilteringFor(Request $request): LengthAwarePaginator
     {

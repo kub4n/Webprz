@@ -4,6 +4,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import ScrollReveal from 'scrollreveal';
 import * as VueGoogleMaps from 'vue2-google-maps';
 import Files from './components/Files.vue';
+import MainSlider from './components/main-slider';
 
 Vue.use(ElementUI);
 window.sr = ScrollReveal();
@@ -21,7 +22,7 @@ Vue.use(VueGoogleMaps, {
 });
 
 const app = new Vue({
-    components:{Files},
+    components:{Files, MainSlider},
     data() {
         return {
             place: '',

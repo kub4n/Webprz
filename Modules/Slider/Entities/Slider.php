@@ -18,4 +18,8 @@ class Slider extends Model
     {
         return $this->hasMany(Slide::class)->orderBy('position', 'asc');
     }
+    public function scopeActive($query){
+        return $query->where('active','=','1');
+    }
 }
+

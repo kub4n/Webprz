@@ -4,14 +4,7 @@
 @stop
 
 @push('css-stack')
-    <style>
-        .checkbox label {
-            padding-left: 0;
-        }
-        .error {
-            color: #dd4b39 !important;
-        }
-    </style>
+
 @endpush
 
 @section('content')

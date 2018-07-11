@@ -1,8 +1,14 @@
 .main-banner{
-  position:relative;
-  height:557px;
-  background-position:center;
-  background-size:cover;
+  .swiper-container{
+    height:557px;
+    position:relative;
+
+    .slide{
+
+    background-position:center;
+    background-size:cover;
+  }
+  }
   .absolute-text{
     text-align:center;
     margin:auto;
@@ -11,7 +17,6 @@
       font-weight:@bold;
       font-size:48px;
       letter-spacing: 10px;
-      padding-top:160px;
     }
     .sub-title{
       font-size: 28px;
@@ -24,6 +29,23 @@
       font-weight: 300;
       letter-spacing: 2px;
       line-height: 1.3em;
+      max-width:70%;
+    }
+  }
+  .swiper-button-next{
+    right:50px;
+  }
+  .swiper-button-prev{
+    left:50px;
+  }
+  .swiper-pagination{
+    .swiper-pagination-bullet-active{
+      background:#fff;
+    }
+    .swiper-pagination-bullet{
+      margin: 0 8px;
+      width: 12px;
+      height: 12px;
     }
   }
 }

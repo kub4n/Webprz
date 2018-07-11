@@ -28,8 +28,6 @@
   }
 
   .main-banner {
-    height: auto;
-    padding: 66px 0;
     .absolute-text {
       h1 {
         padding-top: 0px;
@@ -73,7 +71,9 @@
   }
 
   .main-banner {
-    padding: 66px 0;
+    .swiper-container{
+      height: 357px;
+    }
     .absolute-text {
       h1 {
         font-size: 30px;
@@ -270,7 +270,16 @@
     transition: bottom 0.15s linear, transform 0.15s linear 0.15s;
     transition: bottom 0.15s linear, transform 0.15s linear 0.15s, -webkit-transform 0.15s linear 0.15s;
   }
-
+ .main-banner{
+   .swiper-container{
+     .swiper-button-next{
+       display:none;
+     }
+     .swiper-button-prev{
+       display:none;
+     }
+   }
+ }
   .under-banner {
     .media-992-margin {
       margin-bottom: 20px;
@@ -313,17 +322,20 @@
   }
 
   .main-banner {
-    padding: 45px 0;
+    .swiper-container{
+      height: 215px;
+    }
     .absolute-text {
       h1 {
-        font-size: 20px;
+        font-size: 25px;
         letter-spacing: 5px;
       }
       .sub-title {
         letter-spacing: 1px;
-        font-size: @font-large;
+        font-size: 18px;
       }
       .caption {
+        display:none;
         p {
           font-size: 12px;
         }
@@ -374,9 +386,13 @@
       }
     }
   }
+  .main-banner{
+    .swiper-container{
+      height: 200px;
+    }
+  }
   .main-banner .absolute-text {
     h1{
-      font-size: 18px;
       letter-spacing: 1px;
     }
     .sub-title{

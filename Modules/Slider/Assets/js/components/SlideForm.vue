@@ -37,10 +37,15 @@
                                                 <div class="el-form-item__error" v-if="form.errors.has(locale + '.title')"
                                                      v-text="form.errors.first(locale + '.title')"></div>
                                             </el-form-item>
+                                            <el-form-item label="Podtytuł"
+                                                          :class="{'el-form-item is-error': form.errors.has(locale + '.uri') }">
+                                                <el-input v-model="slide[locale].uri"></el-input>
+                                                <div class="el-form-item__error" v-if="form.errors.has(locale + '.uri')"
+                                                     v-text="form.errors.first(locale + '.uri')"></div>
+                                            </el-form-item>
                                             <el-form-item :label="trans('slides.caption')"
                                                           :class="{'el-form-item is-error': form.errors.has(locale + '.caption') }">
-                                                <component :is="getCurrentEditor()" v-model="slide[locale].caption" :value="slide[locale].caption">
-                                                </component>
+                                                <el-input :autosize="{ minRows: 4}" type="textarea" v-model="slide[locale].caption"></el-input>
 
                                                 <div class="el-form-item__error" v-if="form.errors.has(locale + '.caption')"
                                                      v-text="form.errors.first(locale + '.caption')"></div>
@@ -48,12 +53,7 @@
 
                                             <br>
                                             <br>
-                                            <el-form-item :label="trans('slides.uri')"
-                                                          :class="{'el-form-item is-error': form.errors.has(locale + '.uri') }">
-                                                <el-input v-model="slide[locale].uri"></el-input>
-                                                <div class="el-form-item__error" v-if="form.errors.has(locale + '.uri')"
-                                                     v-text="form.errors.first(locale + '.uri')"></div>
-                                            </el-form-item>
+
                                             <el-form-item :label="trans('slides.url')"
                                                           :class="{'el-form-item is-error': form.errors.has(locale + '.url') }">
                                                 <el-input v-model="slide[locale].url"></el-input>
@@ -69,13 +69,8 @@
                                             </el-form-item>
                                         </el-col>
                                         <el-col :lg="8" :md="24">
-                                            <div class="box box-primary">
-                                                <div class="box-body">
-
                                                     <single-media zone="image" @singleFileSelected="selectSingleFile($event, 'slide')"
                                                                   entity="Modules\Slider\Entities\Slide" :entity-id="$route.params.slideId"></single-media>
-                                                </div>
-                                            </div>
                                         </el-col>
                                     </div>
 
@@ -102,8 +97,13 @@
     export default {
         mixins: [Slugify, ShortcutHelper, ActiveEditor, SingleFileSelector],
         props: {
-            locales: {default: null},
-            slideTitle: {default: null, String}
+            locales: {
+                default: null
+            },
+            slideTitle: {
+                default: null,
+                String
+            }
         },
         data() {
             return {
@@ -114,11 +114,12 @@
                         caption: '',
                         url: '',
                         uri: '',
-                        custom_html:''
+                        custom_html: ''
                     }])
                     .fromPairs()
-                    .merge({medias_single: [],
-                        slider_id:'',
+                    .merge({
+                        medias_single: {},
+                        slider_id: '',
                     })
                     .value(),
 
@@ -154,11 +155,18 @@
             },
 
             onCancel() {
-                this.$router.push({name: 'admin.slider.slider.edit', params: {sliderId: this.slide.slider_id}});
+                this.$router.push({
+                    name: 'admin.slider.slider.edit',
+                    params: {
+                        sliderId: this.slide.slider_id
+                    }
+                });
             },
             fetchSlide() {
                 this.loading = true;
-                axios.post(route('api.slider.slide.find', {slide: this.$route.params.slideId}))
+                axios.post(route('api.slider.slide.find', {
+                        slide: this.$route.params.slideId
+                    }))
                     .then((response) => {
                         this.loading = false;
                         this.slide = response.data.data;
@@ -167,7 +175,9 @@
             },
             getRoute() {
                 if (this.$route.params.slideId !== undefined) {
-                    return route('api.slider.slide.update', {slide: this.$route.params.slideId});
+                    return route('api.slider.slide.update', {
+                        slide: this.$route.params.slideId
+                    });
                 }
                 return route('api.slider.slide.store');
             },
@@ -184,4 +194,5 @@
             $('.publicUrl').hide();
         },
     };
+
 </script>

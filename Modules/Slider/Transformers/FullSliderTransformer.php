@@ -13,7 +13,7 @@ class FullSliderTransformer extends Resource
             'id' => $this->id,
             'name' => $this->name,
             'system_name' => $this->system_name,
-            'status' => $this->status
+            'active' => intVal($this->active)
         ];
         foreach (LaravelLocalization::getSupportedLocales() as $locale => $supportedLocale) {
             $sliderData[$locale] = [];

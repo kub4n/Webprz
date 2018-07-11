@@ -4,15 +4,16 @@ namespace Modules\Slider\Entities;
 
 use Dimsav\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Core\Traits\NamespacedEntity;
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\URL;
 use Modules\Media\Support\Traits\MediaRelation;
 use Modules\Page\Entities\Page;
+use function app;
+use function route;
 
 class Slide extends Model
 {
-    use Translatable, NamespacedEntity, MediaRelation;
+    use Translatable, MediaRelation, NamespacedEntity;
 
     public $translatedAttributes = [
         'title',
@@ -37,7 +38,7 @@ class Slide extends Model
         'custom_html',
     ];
     protected $table = 'slider__slides';
-    protected static $entityNamespace = 'asgardcms/slider';
+
     /**
      * @var string
      */
@@ -63,13 +64,22 @@ class Slide extends Model
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     * @return BelongsTo
      */
     public function page()
     {
         return $this->belongsTo(Page::class);
     }
+    public function thumbnail($thumbname = 'slideThumb') {
 
+        $thumbnail = $this->files()->first();
+
+        if ($thumbnail === null) {
+
+            return '/assets/resources/example-image.png';
+        }
+        return $thumbnail->getThumbnail($thumbname);
+    }
     /**
      * returns slider image src
      * @return string|null full image path if image exists or null if no image is set

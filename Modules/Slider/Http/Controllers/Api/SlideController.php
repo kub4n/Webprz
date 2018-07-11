@@ -69,7 +69,7 @@ class SlideController extends Controller
 
         return response()->json([
             'errors' => false,
-            'message' => trans('slide::messages.slide created'),
+            'message' => trans('slider::messages.slide created'),
         ]);
     }
 
@@ -80,20 +80,17 @@ class SlideController extends Controller
 
         return response()->json([
             'errors' => false,
-            'message' => trans('slide::messages.slide updated'),
+            'message' => trans('slider::messages.slide updated'),
         ]);
     }
 
-    public function delete(Request $request)
+    public function destroy(Slide $slide)
     {
-        $slide = $this->slide->find($request->get('slide'));
-
-        if (!$slide) {
-            return Response::json(['errors' => true]);
-        }
-
         $this->slide->destroy($slide);
 
-        return Response::json(['errors' => false]);
+        return response()->json([
+            'errors' => false,
+            'message' => trans('moonblog::messages.post deleted'),
+        ]);
     }
 }

@@ -177,6 +177,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Illuminate\Notifications\NotificationServiceProvider::class,
+        Arrilot\Widgets\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -242,6 +243,8 @@ return [
         'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
         'Image' => Intervention\Image\Facades\Image::class,
         'Menu' => Nwidart\Menus\Facades\Menu::class,
+        'Widget'       => Arrilot\Widgets\Facade::class,
+        'AsyncWidget'  => Arrilot\Widgets\AsyncFacade::class,
 
     ],
 
